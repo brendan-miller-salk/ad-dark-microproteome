@@ -1,0 +1,12 @@
+smORF_class,Definition
+dORF,ORF located in the 3 prime untranslated region (3 prime UTR) of a canonical protein-coding gene.
+Isoform,ORF found exclusively in alternatively spliced isoforms of canonical protein-coding genes.
+oORF,ORF that overlaps with annotated coding regions but is translated in an alternative reading frame.
+lncRNA,ORF encoded by a long noncoding RNA (lncRNA) locus.
+psORF,ORF derived from a pseudogene.
+uORF,ORF located in the 5 prime untranslated region (5 prime UTR) upstream of the main coding sequence.
+uoORF,Upstream ORF that also overlaps with the main coding sequence in a different reading frame.
+doORF,Downstream ORF that also overlaps with the main coding sequence in a different reading frame.
+eORF,ORF entirely embedded within a longer canonical coding sequence but in a distinct frame.
+TrEMBL,UniProt's unreviewed computationally generated ORFs from large-scale translation studies.
+Swiss-Prot,"UniProt's high quality manually annotated and non-redundant ORF sequence database, which brings together experimental results, computed features and scientific conclusions."

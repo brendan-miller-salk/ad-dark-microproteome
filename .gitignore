@@ -1,0 +1,124 @@
+# === Brain Mi# === Exclude everything except Code and Results ===
+/*
+!/Code/
+!/Results/
+!.gitignore
+!README.md
+!requirements.txt
+!environment.yml
+!setup_environment.sh
+!run_all_analyses.sh
+!DATA_AVAILABILITY.md
+!DATA_REQUIREMENTS.md
+
+# === Large processed data files (will be provided via download links) ===
+Code/data/microprotein_master.csv
+Code/data/combined_gpath_results.csv
+Code/data/counts.csv
+
+# === Large RP3 analysis results (>50MB each) ===
+Results/RP3/ribocode_results.gtf
+Results/RP3/ribocode_results_collapsed.gtf
+Results/RP3/ribocode_results.bed
+Results/RP3/ribocode_results_collapsed.bed
+Results/RP3/ribocode_results.txt
+Results/RP3/ribocode_results_collapsed.txt
+
+# === Large scRNA dataset ===
+Results/scRNA_Enrichment/Brain_Microproteins_Discovery_MASTER_dataset_scRNA.csvcovery Project - Private/Large Files ===
+# Raw sequencing data (too large for GitHub)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+
+# Raw proteomics data
+*.raw
+*.mzML
+*.mzXML
+
+# Large processed data files (will be provided via download links)
+Code/data/microprotein_master.csv
+Code/data/combined_gpath_results.csv
+Code/data/counts.csv
+
+# Large RP3 analysis results (>50MB each)
+Results/RP3/ribocode_results.gtf
+Results/RP3/ribocode_results_collapsed.gtf
+Results/RP3/ribocode_results.bed
+Results/RP3/ribocode_results_collapsed.bed
+Results/RP3/ribocode_results.txt
+
+# Large scRNA dataset
+Results/scRNA_Enrichment/Brain_Microproteins_Discovery_MASTER_dataset_scRNA.csv
+
+!Code/data/.gitkeep
+
+# Temporary analysis files
+Results/*/temp/
+Results/*/*.tmp
+
+# === Python build artifacts ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+
+# === R artifacts ===
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# === macOS + OS files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === Virtual environments ===
+.venv/
+venv/
+.conda/
+env/
+
+# === IDEs and editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Logs and temporary files ===
+*.log
+.env
+.envrc
+*.tmp
+*.temp
+
+# === Jupyter Notebooks checkpoints ===
+.ipynb_checkpoints/
+
+# === System-specific files ===
+*.out
+*.pid
+nohup.out
+
+# === Large figure files (keep PDFs for documentation) ===
+figures/*.png
+figures/*.jpg
+figures/*.tiff
+figures/*.svg
+!figures/*.pdf
+
+# === Sensitive or personal paths ===
+**/brendan_alan_shared_folder/
+**/Library/CloudStorage/
